@@ -1,0 +1,15 @@
+h1 {
+    color: #474747;
+    font-family: "Poppins", Sans-serif;
+    font-size: 61px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+
+p, ul, li, b {
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+}

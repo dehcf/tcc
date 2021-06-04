@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 3%;
+    background-image: url("../../assets/introducao/image.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.bot {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    text-align: left;
+    max-width: 50%;
+}
+
+.image-bot img {
+    margin-left: 25%;
+    border-radius: 5px;
+    width: auto;
+    height: 450px;
+    box-shadow: 0 0 1em rgb(153, 153, 153);
+}
+
+.chat img {
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    margin-top: 150%;
+    right: 300px;
+}

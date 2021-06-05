@@ -1,6 +1,4 @@
 .container {
-    display: flex;
-    flex-direction: column;
     text-align: justify;
     margin-left: 3%;
     background-image: url("../../assets/introducao/image.png");
@@ -32,4 +30,28 @@
     border-radius: 30px;
     margin-top: 150%;
     right: 300px;
+}
+
+@media(max-width: 600px){
+    .container {
+        position: relative;
+        margin: 0;
+        background-image: url("../../assets/introducao/image2-mobile.png");
+    }
+    .title {
+        max-width: 100%;
+    }
+    .bot {
+        display: flex;
+        flex-direction: column;
+    }
+    .image-bot  {
+        align-items: center;
+    }
+    .image-bot img {
+        margin-left: 25%;
+        width: auto;
+        height: 350px;
+    }
+    
 }

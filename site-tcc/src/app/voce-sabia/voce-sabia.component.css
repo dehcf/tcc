@@ -18,3 +18,19 @@
     max-width: 70%;
     text-align: justify;
 }
+
+@media(max-width: 600px){
+    .voce-sabia img {
+        width: 30px;
+        height: auto;
+    }
+    .container {
+        margin-bottom: 18%;
+        width: 350px;
+        height: auto;
+    }
+    .texto {
+        max-width: 82%;
+    }
+    
+}

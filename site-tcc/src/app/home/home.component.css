@@ -22,19 +22,17 @@
 }
 
 .explicacao img {
-    width: 17px;
-    height: 17px;
-    flex-wrap: wrap;
+    width: auto;
+    height: 14px;
 }
 
 @media(max-width: 600px){ 
     .imagem-dindin img {
         width: auto;
-        height: 200px;
+        height: 230px;
         padding-right: 15px;
     }
     .explicacao {
-        margin: 0;
         max-width: 100%;
     }
 }

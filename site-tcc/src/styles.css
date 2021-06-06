@@ -12,11 +12,12 @@ p, ul, li, b {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.8em;
+    text-align: justify;
 }
 
 @media(max-width: 600px){
     h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     p, il, li, b {

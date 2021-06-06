@@ -1,5 +1,4 @@
 .footer {
-    text-align: center;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -9,11 +8,12 @@
 }
 
 .footer p {
+    text-align: center;
     color: #777
 }
 
 @media(max-width: 600px){
-    .footer {
+    .footer p {
         text-align: left;
     }
 }
